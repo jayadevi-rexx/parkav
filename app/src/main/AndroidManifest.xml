@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rexxtechnologies.parkav">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Sample"></activity>
+        <activity android:name=".GraphActivity" />
+        <activity android:name=".Timer" />
+        <activity
+            android:name=".AddProductsofInvoice"
+            android:label="@string/title_activity_add_productsof_invoice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DeliveryCollection" />
+        <activity android:name=".Complaints" />
+        <activity android:name=".UnVisitedShop" />
+        <activity android:name=".InvoiceActivity" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.actions" -->
+        <!-- android:resource="@xml/custom_progressbar_drawable" /> -->
+        <activity android:name=".AddCustomer" />
+        <activity android:name=".Nearby_shop" />
+        <activity android:name=".Closed" />
+        <activity
+            android:name=".Punch"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name=".TodayTask"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppFullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

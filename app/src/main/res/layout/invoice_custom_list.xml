@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/listview_product_name"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        tools:ignore="Suspicious0dp" />
+    <TextView
+        android:id="@+id/liss"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_height="0dp"
+        tools:ignore="Suspicious0dp" />
+    <TextView
+        android:id="@+id/qut"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_height="0dp"
+        tools:ignore="Suspicious0dp" />
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_height="0dp"
+        tools:ignore="Suspicious0dp" />
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_height="0dp"
+        tools:ignore="Suspicious0dp" />
+    <View
+        android:layout_width="match_parent"
+        android:background="#a4a4a4"
+        android:layout_height="1dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="4"
+        tools:ignore="NotSibling">
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="6dp"
+            android:layout_marginHorizontal="4dp">
+            <TableRow
+                android:background="#D3D3D3">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="1"
+            android:textFontWeight="1"
+            android:textColor="#000"
+            android:layout_weight="1"
+           />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textview5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1.2"
+                    android:textColor="#000"
+                    android:gravity="center"/>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="About Task"
+            android:textColor="#000" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Task Name"
+                    android:textColor="#000" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <ImageButton
+                    android:id="@+id/dropdown"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+
+                    app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp"/>
+
+
+
+
+
+
+        <!-- <TextView
+             android:id="@+id/textView10"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="5dp"
+             android:layout_marginRight="1dp"
+             android:layout_marginBottom="1dp"
+             android:layout_weight="1"
+             android:background="#888787"
+             android:gravity="center"
+             android:text="Progressing"
+             android:textColor="#000" />-->
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

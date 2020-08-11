@@ -1,0 +1,539 @@
+<resources>
+    <string name="app_name">Parkav</string>
+    <string name="ek_img_content">ExportKit Image</string>
+
+    <string name="forgot_password___string">Forgot Password ?</string>
+
+    <string name="login_string">LOGIN</string>
+
+    <string name="f_string">f</string>
+
+    <string name="password_string">Password</string>
+
+    <string name="username_string">Username</string>
+
+    <string name="for_valuable_people_string">FOR VALUABLE PEOPLE</string>
+    <string name="invoice_ek6_string">Invoice</string>
+
+    <string name="invoice_ek7_string">Invoice</string>
+
+    <string name="invoice_ek8_string">Invoice</string>
+
+    <string name="invoice_ek9_string">Invoice</string>
+
+    <string name="invoice_ek10_string">Invoice</string>
+
+    <string name="invoice_ek11_string">Invoice</string>
+
+    <string name="invoice_ek12_string">Invoice</string>
+
+    <string name="nearby_stores_string">Nearby Stores</string>
+
+    <string name="monthly_target_string">Monthly Target</string>
+
+    <string name="pending_string">Pending</string>
+
+    <string name="target_chart_string">Target Chart</string>
+
+    <string name="dashboard_string">Dashboard</string>
+
+    <string name="hello___string">Hello !</string>
+
+    <string name="employee_name_string">Employee Name</string>
+
+    <string name="ordered_string">Ordered</string>
+
+    <string name="pending_ek1_string">Pending</string>
+
+    <string name="cash_received_string">Cash Received</string>
+
+    <string name="_20__string">20 </string>
+
+    <string name="_30_string">30</string>
+
+
+    -
+    <string name="___20_____shops_string">20 Shops</string>
+    <string name="progressing_string">Progressing</string>
+    <string name="_50__string">50%</string>
+    <string name="completed_string">Completed</string>
+    <string name="signout_string">Signout</string>
+
+    <string name="report_string">Report</string>
+
+    <string name="notification_string">Notification</string>
+
+    <string name="_43_string">43</string>
+
+    <string name="ordered_ek1_string">Ordered</string>
+
+    <string name="shops_string">Shops</string>
+
+    <string name="shops_ek1_string">Shops</string>
+
+    <string name="shops_ek2_string">Shops</string>
+
+    <string name="_3_15_string">3/15</string>
+
+
+    -
+    <string name="proceed__with_your_string">Proceed with your</string>
+
+    <string name="login_ek1_string">Login</string>
+
+    <string name="home_string">Home</string>
+
+    <string name="today_tasks_string">Today Tasks</string>
+
+    <string name="nearby_stores_ek1_string">Nearby Stores</string>
+
+    <string name="x_string">X</string>
+
+    <string name="add_customer_string">Add Customer</string>
+
+    <string name="complaints_string">Complaints</string>
+    <string name="task_string">Task</string>
+
+    <string name="of_the_day__string">of the day </string>
+
+    <string name="today_task_string">Today Task</string>
+
+    <string name="_00_03_string">00:03</string>
+
+    <string name="s_no_string">S/No</string>
+
+    <string name="task_ek1_string">Task</string>
+
+    <string name="description_string">Description</string>
+
+    <string name="status_string">Status</string>
+
+    <string name="task_name___string">Task name </string>
+
+    <string name="about_task_string">About Task</string>
+
+    <string name="__8_string"> 8</string>
+
+    <string name="_7_string">7</string>
+
+    <string name="task_name___ek1_string">Task name </string>
+
+    <string name="about_task_ek1_string">About Task</string>
+
+    <string name="_6_string">6</string>
+
+    <string name="task_name___ek2_string">Task name </string>
+
+    <string name="about_task_ek2_string">About Task</string>
+
+    <string name="_1_string">1</string>
+
+    <string name="task_name___ek3_string">Task name </string>
+
+    <string name="about_task_ek3_string">About Task</string>
+
+    <string name="_5_string">5</string>
+
+    <string name="task_name___ek4_string">Task name </string>
+
+    <string name="about_task_ek4_string">About Task</string>
+
+    <string name="_4_string">4</string>
+
+    <string name="task_name___ek5_string">Task name </string>
+
+    <string name="about_task_ek5_string">About Task</string>
+
+    <string name="_3_string">3</string>
+
+    <string name="task_name___ek6_string">Task name </string>
+
+    <string name="about_task_ek6_string">About Task</string>
+
+    <string name="task_name___ek7_string">Task name </string>
+
+    <string name="about_task_ek7_string">About Task</string>
+
+    <string name="_2_string">2</string>
+
+    <string name="progressing_ek1_string">Progressing</string>
+
+    <string name="progressing_ek2_string">Progressing</string>
+
+
+    <string name="progressing_ek3_string">Progressing</string>
+
+    <string name="completed_ek1_string">Completed</string>
+
+    <string name="completed_ek2_string">Completed</string>
+
+    <string name="completed_ek3_string">Completed</string>
+    <string name="nearby_string">Nearby</string>
+
+    <string name="stores_string">Stores</string>
+
+    <string name="_00_05_string">00:05</string>
+
+    <string name="invoice_string">Invoice</string>
+
+    <string name="invoice_ek1_string">Invoice</string>
+
+    <string name="invoice_ek2_string">Invoice</string>
+
+    <string name="invoice_ek3_string">Invoice</string>
+
+    <string name="invoice_ek4_string">Invoice</string>
+
+    <string name="action_string">Action</string>
+
+    <string name="invoice_ek5_string">Invoice</string>
+
+
+    <string name="__name___string"> Name </string>
+
+    <string name="__name___ek1_string"> Name </string>
+
+    <string name="__name___ek2_string"> Name </string>
+
+    <string name="__name___ek3_string"> Name </string>
+
+    <string name="__name___ek4_string"> Name </string>
+
+    <string name="__name___ek5_string"> Name </string>
+
+    <string name="__name___ek6_string"> Name </string>
+
+    <string name="__name___ek7_string"> Name </string>
+
+    <string name="_9_4_thillai_nagar_trichy__string">9/4 Thillai Nagar,Trichy </string>
+
+    <string name="_9_4_thillai_nagar_trichy__ek1_string">9/4 Thillai Nagar,Trichy </string>
+
+    <string name="_9_4_thillai_nagar_trichy__ek2_string">9/4 Thillai Nagar,Trichy </string>
+
+    <string name="_9_4_thillai_nagar_trichy__ek3_string">9/4 Thillai Nagar,Trichy </string>
+
+    <string name="_9_4_thillai_nagar_trichy__ek4_string">9/4 Thillai Nagar,Trichy </string>
+
+    <string name="_9_4_thillai_nagar_trichy__ek5_string">9/4 Thillai Nagar,Trichy </string>
+
+    <string name="_9_4_thillai_nagar_trichy__ek6_string">9/4 Thillai Nagar,Trichy </string>
+
+    <string name="_9_4_thillai_nagar_trichy__ek7_string">9/4 Thillai Nagar,Trichy </string>
+
+
+    <string name="name_string">Name</string>
+
+    <string name="address_string">Address</string>
+
+    <string name="action_ek1_string">Action</string>
+    <string name="generate__string">Generate </string>
+
+    <string name="quantity_string">Quantity</string>
+
+    <string name="quantity_ek1_string">Quantity</string>
+
+    <string name="amount_string">Amount</string>
+
+    <string name="remarks_string">Remarks</string>
+
+    <string name="_00_06_string">00:06</string>
+
+    <string name="product_name_string">Product Name</string>
+
+    <string name="select_your_product_name_string">Select your Product Name</string>
+
+    <string name="generate_string">Generate</string>
+
+    <string name="product_code_string">Product Code</string>
+
+
+    <string name="you_have_exceeded_your_limited_amount__send_request_to_admin_for_the_further_process_string">You have exceeded your limited Amount.
+Send Request to admin for the Further Process</string>
+
+    <string name="okay_string">Okay</string>
+
+    <string name="cancel_string">Cancel</string>
+
+    <string name="___idorname_string"># idorname</string>
+
+    <string name="_11_07_20_string">11/07/20</string>
+
+    <string name="_600_00_string">600.00</string>
+
+    <string name="_450_00_string">450.00</string>
+
+    <string name="_1764_00_string">1764.00</string>
+
+    <string name="_556_00_string">556.00</string>
+
+    <string name="_1876_00_string">1876.00</string>
+
+    <string name="product_name_1_string">Product Name 1</string>
+
+    <string name="product_name_5_string">Product Name 5</string>
+
+    <string name="product_name_4_string">Product Name 4</string>
+
+    <string name="product_name_3_string">Product Name 3</string>
+
+    <string name="product_name_2_string">Product Name 2</string>
+
+    <string name="product_name_10_string">Product Name 10</string>
+
+    <string name="product_name_9_string">Product Name 9</string>
+
+    <string name="product_name_8_string">Product Name 8</string>
+
+    <string name="product_name_7_string">Product Name 7</string>
+
+    <string name="product_name_6_string">Product Name 6</string>
+
+    <string name="_180_00_string">180.00</string>
+
+    <string name="_1221_00_string">1221.00</string>
+
+    <string name="_1449_00_string">1449.00</string>
+
+    <string name="_476_00_string">476.00</string>
+
+    <string name="_1876_00_ek1_string">1876.00</string>
+
+    <string name="share_string">SHARE</string>
+
+    <string name="_00_07_string">00:07</string>
+
+    <string name="qty__string">Qty.</string>
+
+    <string name="price_string">Price</string>
+
+
+    <string name="_1_ek1_string">1</string>
+
+    <string name="_1_ek2_string">1</string>
+
+    <string name="_1_ek3_string">1</string>
+
+    <string name="_1_ek4_string">1</string>
+
+    <string name="_1_ek5_string">1</string>
+
+    <string name="_1_ek6_string">1</string>
+
+    <string name="_1_ek7_string">1</string>
+
+    <string name="_1_ek8_string">1</string>
+
+    <string name="_1_ek9_string">1</string>
+
+    <string name="_600_00_ek1_string">600.00</string>
+
+    <string name="_450_00_ek1_string">450.00</string>
+
+    <string name="_1764_00_ek1_string">1764.00</string>
+
+    <string name="_556_00_ek1_string">556.00</string>
+
+    <string name="_1876_00_ek2_string">1876.00</string>
+
+    <string name="_180_00_ek1_string">180.00</string>
+
+    <string name="_1221_00_ek1_string">1221.00</string>
+
+    <string name="_1449_00_ek1_string">1449.00</string>
+
+    <string name="_476_00_ek1_string">476.00</string>
+
+    <string name="_1876_00_ek3_string">1876.00</string>
+
+    <string name="total_string">Total</string>
+
+    <string name="subtotal_string">Subtotal</string>
+
+    <string name="_8543_00_string">8543.00</string>
+
+    <string name="tax_string">Tax</string>
+
+    <string name="total__string">Total </string>
+
+    <string name="_00_5__string">00.5%</string>
+
+    <string name="_8600_00_string">8600.00</string>
+
+    <string name="add__customer_string">ADD CUSTOMER</string>
+
+    <string name="customer_group____string">Customer Group * </string>
+
+    <string name="name____string">Name * </string>
+
+    <string name="company_name___string">Company Name *</string>
+
+    <string name="email_string">Email</string>
+
+    <string name="example_example_com_string">example@example.com</string>
+
+    <string name="state_string">State</string>
+
+    <string name="city_string">City</string>
+
+    <string name="zone____string">Zone *</string>
+
+    <string name="tax_number_string">GST Number</string>
+
+    <string name="contact_number___string">Contact Number *</string>
+
+    <string name="tennur_string">Tennur</string>
+
+    <string name="general_string">General</string>
+
+
+    <string name="country_string">Country</string>
+
+    <string name="postal_code_string">Postal code</string>
+
+    <string name="submit_string">Submit</string>
+
+
+    <string name="__please_fill_the_below_form_to_add_a_new_customer_string">*Please fill the below form to add a new customer</string>
+
+    <string name="alternative_number_string">Alternative Number</string>
+    <string name="zone_string">Zone</string>
+    <string name="company_name_string">Company Name</string>
+
+    <string name="return_string">Return</string>
+
+    <string name="return_details_string">Return Details</string>
+
+    <string name="__kg_string">/KG</string>
+    <string name="you_punched_in_successfully___string">You Punched-in Successfully !</string>
+
+    <string name="__hey___employee_name_string"> Hey ! Employee Name</string>
+
+    <string name="done_string">DONE</string>
+
+    <string name="_00___01_string">00 : 01</string>
+
+    <string name="_00_01_string">00:01</string>
+
+    <string name="return_ek1_string">Return</string>
+    <string name="you_have_submitted__your_complaints_we_will_contact_you_soon_string">You have submitted your Complaints.We will contact you soon</string>
+    <string name="closed__string">Closed </string>
+
+    <string name="shop_string">Shop</string>
+
+    <string name="customer_name_string">Customer Name</string>
+    <string name="over_due_string">Over due</string>
+
+    <string name="__list_string"> list</string>
+
+    <string name="_2546_00_string">2546.00</string>
+
+    <string name="customername_string">CustomerName</string>
+
+    <string name="due_amount_string">Due Amount</string>
+
+    <string name="_21_days_string">21 days</string>
+
+    <string name="_22_to_40_days_string">22 to 40 days</string>
+
+    <string name="_40_above_string">40 above</string>
+
+    <string name="_2546_00_ek1_string">2546.00</string>
+
+    <string name="_2546_00_ek2_string">2546.00</string>
+
+    <string name="_2546_00_ek3_string">2546.00</string>
+
+    <string name="_2546_00_ek4_string">2546.00</string>
+
+    <string name="_2546_00_ek5_string">2546.00</string>
+
+    <string name="_2546_00_ek6_string">2546.00</string>
+
+    <string name="_2546_00_ek7_string">2546.00</string>
+
+    <string name="capture_the_shop_to_submit_string">Capture the shop to submit</string>
+    <string name="delivery_string">Delivery</string>
+
+
+    <string name="collection_report_string">Collection Report</string>
+
+    <string name="from_string">From</string>
+
+    <string name="to_string">To</string>
+
+
+    <string name="_600_00_ek2_string">600.00</string>
+
+    <string name="_450_00_ek2_string">450.00</string>
+
+    <string name="_1764_00_ek2_string">1764.00</string>
+
+    <string name="_556_00_ek2_string">556.00</string>
+
+
+    <string name="product_name_1_ek1_string">Product Name 1</string>
+
+    <string name="product_name_5_ek1_string">Product Name 5</string>
+
+    <string name="product_name_4_ek1_string">Product Name 4</string>
+
+    <string name="product_name_3_ek1_string">Product Name 3</string>
+
+    <string name="product_name_2_ek1_string">Product Name 2</string>
+
+
+    <string name="_600_00_ek3_string">600.00</string>
+
+    <string name="_450_00_ek3_string">450.00</string>
+
+    <string name="_1764_00_ek3_string">1764.00</string>
+
+    <string name="_556_00_ek3_string">556.00</string>
+
+
+    <string name="customer_list_string">Customer List</string>
+    <string name="unvisited_string">Unvisited</string>
+
+    <string name="shoplist_string">Shoplist</string>
+
+
+    <string name="_9786543210_string">9786543210</string>
+
+    <string name="_9786543210_ek1_string">9786543210</string>
+
+    <string name="_9786543210_ek2_string">9786543210</string>
+
+    <string name="_9786543210_ek3_string">9786543210</string>
+
+    <string name="_9786543210_ek4_string">9786543210</string>
+
+    <string name="_9786543210_ek5_string">9786543210</string>
+
+    <string name="_9786543210_ek6_string">9786543210</string>
+
+    <string name="_9786543210_ek7_string">9786543210</string>
+
+
+    <string name="contact_number_string">Contact Number</string>
+
+
+    <string name="unvisited_shop_list_string">Unvisited Shop List</string>
+
+    <string name="over_due_list_string">Over Due List</string>
+
+    <string name="delivery_collection_report_string">Delivery Collection Report</string>
+    <string name="notDeted">Unable to Get Location</string>
+    <string name="settings">Settings</string>
+
+    <string name="textwarn">Permission Mandatory for this App</string>
+    <string name="title_activity_add_productsof_invoice">AddProductsofInvoice</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

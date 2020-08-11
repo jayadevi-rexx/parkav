@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#000">
+
+        <ImageView
+            android:id="@+id/img_Toolbar_menu"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/ic_arrow_back_24px" />
+        <TextView
+            android:id="@+id/nearbyshop_timer"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/NotfificationRelativeLayout"
+            android:text="00:00"
+            android:textColor="#fff"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+
+        <RelativeLayout
+            android:id="@+id/NotfificationRelativeLayout"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:id="@+id/nearbyshop_profile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_profile_red"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/relone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_below="@+id/relone"
+                android:id="@+id/content_containers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/one"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/path_3"
+                        android:layout_width="416.33349609375dp"
+                        android:layout_height="196.33349609375dp"
+                        android:layout_marginStart="-25.000244140625dp"
+                        android:layout_marginLeft="-25.000244140625dp"
+                        android:contentDescription="path_3"
+                        android:src="@drawable/red_maroon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/three"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/one"
+                   >
+                    <TableLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="6dp"
+                        android:layout_marginHorizontal="4dp">
+                        <TableRow
+                            android:background="@drawable/rectangle_2_shape">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.2"
+                                android:gravity="center"
+                                android:text="Name"
+                                android:textColor="#fff"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent" >
+                                <View style="@style/Divider" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.4"
+                                android:text="Phone Number"
+                                android:gravity="center"
+                                android:textColor="#fff"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent" >
+                                <View style="@style/Divider" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.4"
+                                android:gravity="center"
+                                android:text="Address"
+                                android:textColor="#fff"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent" >
+                                <View style="@style/Divider" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.8"
+                                android:gravity="center"
+                                android:text="Status"
+                                android:textColor="#fff"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent" >
+                                <View style="@style/Divider" />
+                            </LinearLayout>
+
+
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/three"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/cusrecycles"
+                        android:layout_marginTop="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="50dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+
+                        android:text="Nearby"
+                        android:textColor="#ffffff"
+                        android:textSize="40dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+
+                        android:text="stores"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="4"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/googlemapicon"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_place_24px"
+                            android:textColor="#000000"
+                            android:textSize="25dp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/nearby_bootom_button"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/closedbutton" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

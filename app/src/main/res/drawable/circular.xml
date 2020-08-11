@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Larger blue circle -->
+    <item android:id="@android:id/secondaryProgress">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <stroke
+                android:width="20dp"
+                android:color="#ff0000" />
+        </shape>
+    </item>
+    <!-- Green circle in middle -->
+    <item android:id="@+id/outersecondaryprogress">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <stroke
+                android:width="20dp"
+                android:color="#ffffff" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <stroke
+                android:width="20dp"
+                android:color="#000000" />
+        </shape>
+    </item>
+    <item android:id="@+id/outersecondaryprogress4">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <stroke
+                android:width="20dp"
+                android:color="#ffffff" />
+        </shape>
+    </item>
+    <item android:id="@+id/outerprogress">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <stroke
+                android:width="20dp"
+                android:color="#a4a4a4" />
+        </shape>
+    </item>
+    <!-- Smaller red circle at front -->
+    <item android:id="@+id/outerthirdprogress">
+        <shape android:shape="oval">
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <solid android:color="#ffffff" />
+
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="colorAccent">#ed1c24</color>
+
+    <color name="_bg__login_color">#ffffff</color>
+
+    <color name="forgot_password___color">#ffffff</color>
+    <color name="divider_color">#ffffff</color>
+    <color name="header_divider_color">#000000</color>
+
+    <color name="f_color">#000000</color>
+
+    <color name="for_valuable_people_color">#231f20</color>
+    <color name="_bg__dashboard_color">#ffffff</color>
+
+    <color name="rectangle_1_color">#000000</color>
+    <color name="_bg__popup_menu_color">#ffffff</color>
+
+    <color name="signout_color">#ffffff</color>
+<!--    <color name="_bg__popup_menu_color">#ffffff</color>-->
+<!--    <color name="signout_color">#ffffff</color>-->
+
+    <color name="today_task_color">#ffffff</color>
+
+    <color name="monthly_target_color">#000000</color>
+    <color name="_bg__dashboard___2_color">#ffffff</color>
+    <color name="ellipse_2_color">#ed1c24</color>
+
+    <color name="employee_name_color">#ed1c24</color>
+    <color name="completed_color">#8d8d8d</color>
+    <color name="_bg__today_task_color">#ffffff</color>
+
+    <color name="task_color">#ffffff</color>
+
+    <color name="of_the_day__color">#000000</color>
+
+    <color name="rectangle_3_color">#636363</color>
+
+    <color name="rectangle_4_color">#a4a4a4</color>
+
+
+    <color name="rectangle_75_color">#919191</color>
+
+    <color name="_20__color">#545353</color>
+
+    <color name="___20_____shops_color">#787878</color>
+
+    <color name="rectangle_76_color">#676766</color>
+    <color name="_bg__nearby_stores_color">#ffffff</color>
+
+    <color name="nearby_color">#ffffff</color>
+
+    <color name="stores_color">#000000</color>
+    <color name="_bg__sales_details_of_selected_customer_color">#ffffff</color>
+
+
+    <color name="_bg__sales_details_of_selected_customer___2_color">#ffffff</color>
+
+    <color name="rectangle_8_color">#000000</color>
+
+    <color name="rectangle_2_color">#ed1c24</color>
+
+    <color name="generate__color">#ffffff</color>
+
+    <color name="invoice_color">#000000</color>
+
+    <color name="rectangle_7_color">#707070</color>
+
+    <color name="select_your_product_name_color">#9a9a9a</color>
+    <color name="_bg__invoice_color">#ffffff</color>
+
+    <color name="rectangle_47_color">#333232</color>
+    <color name="ellipse_19_color">#878787</color>
+    <color name="rectangle_40_color">#707070</color>
+
+
+    <color name="___idorname_color">#ffffff</color>
+
+    <color name="_11_07_20_color">#6a6a6a</color>
+    <color name="_bg__adding_a_customer_color">#ffffff</color>
+
+    <color name="rectangle_88_color">#ffffff</color>
+
+
+    <color name="add__customer_color">#000000</color>
+
+    <color name="example_example_com_color">#6e6e6e</color>
+
+    <color name="tennur_color">#ed1c24</color>
+
+    <color name="__please_fill_the_below_form_to_add_a_new_customer_color">#9b9898</color>
+    <color name="_bg__adding_a_customer___1_color">#ffffff</color>
+
+    <color name="customer_group____color">#000000</color>
+
+
+    <color name="ellipse_61_color">#ed1c24</color>
+
+    <color name="ellipse_62_color">#878787</color>
+    <color name="_bg__complaints_color">#ffffff</color>
+
+    <color name="_bg__complaints___2_color">#ffffff</color>
+
+
+    <color name="complaints_color">#ffffff</color>
+
+    <color name="remarks_color">#000000</color>
+
+    <color name="rectangle_29_color">#707070</color>
+    <color name="_bg__dashboard___1_color">#ffffff</color>
+    <color name="_bg__punch_color">#ffffff</color>
+
+    <color name="you_punched_in_successfully___color">#000000</color>
+
+    <color name="done_color">#ffffff</color>
+
+    <color name="_00___01_color">#ed1c24</color>
+    <color name="_bg__closed_shop_color">#ffffff</color>
+
+
+    <color name="closed__color">#ffffff</color>
+
+    <color name="shop_color">#000000</color>
+    <color name="_bg__over_due_list_color">#ffffff</color>
+    <color name="over_due_color">#ffffff</color>
+    <color name="__list_color">#000000</color>
+    <color name="rectangle_115_color">#6b6b6b</color>
+    <color name="rectangle_143_color">#989898</color>
+    <color name="rectangle_144_color">#515151</color>
+    <color name="_bg__delivery_collection_report_color">#ffffff</color>
+
+
+    <color name="delivery_color">#ffffff</color>
+
+
+    <color name="_600_00_color">#000000</color>
+
+    <color name="rectangle_42_color">#707070</color>
+
+    <color name="rectangle_142_color">#8d8d8d</color>
+    <color name="_bg__unvisited_shop_color">#ffffff</color>
+
+    <color name="unvisited_color">#ffffff</color>
+
+    <color name="shoplist_color">#000000</color>
+
+
+</resources>

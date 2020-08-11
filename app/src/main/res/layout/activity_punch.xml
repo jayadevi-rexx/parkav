@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#000">
+
+        <ImageView
+            android:id="@+id/img_Toolbar_menu"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/ic_arrow_back_24px" />
+
+
+
+
+        <TextView
+            android:id="@+id/punch_timer"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/NotfificationRelativeLayout"
+            android:text="00:00"
+            android:textColor="#fff"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+
+        <RelativeLayout
+            android:id="@+id/NotfificationRelativeLayout"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:id="@+id/punch_profile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_profile_red"
+             />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/relone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/content_containers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <RelativeLayout
+                        android:id="@+id/content_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <ImageView android:id="@+id/ic_person_24px"
+                                android:background="@drawable/ic_person"
+                                android:contentDescription="ic_person_24px"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+                            <TextView android:id="@+id/employee_name"
+                                android:textSize="22sp"
+                                android:textColor="@color/you_punched_in_successfully___color"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center"
+                                android:layout_width="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_height="33dp"
+                                android:text="@string/__hey___employee_name_string"
+                                android:gravity="center_horizontal" />
+                            <TextView android:id="@+id/__hey___employee_name"
+                                android:textSize="22sp"
+                                android:textColor="@color/you_punched_in_successfully___color"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center"
+                                android:layout_width="wrap_content"
+                                android:textStyle="bold"
+                                android:layout_height="33dp"
+                                android:visibility="invisible"
+                                android:text="getlatlng"
+                                android:gravity="center_horizontal" />
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <ImageView android:id="@+id/ellipse_2"
+                                    android:background="@drawable/ellipse_2_shape"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="27dp"
+                                    android:layout_width="176dp"
+                                    android:layout_height="179dp" />
+
+                                <ImageView
+                                    android:id="@+id/ic_check_24px"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="65dp"
+                                    android:background="@drawable/ic_done"
+                                    android:contentDescription="ic_check_24px" />
+
+                            </RelativeLayout>
+
+                            <TextView android:id="@+id/you_punched_in_successfully__"
+                                android:textSize="20sp"
+                                android:textColor="@color/you_punched_in_successfully___color"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="@string/you_punched_in_successfully___string"
+                                android:gravity="center_horizontal" />
+                            <TextView android:id="@+id/timers"
+                                android:textSize="20sp"
+                                android:textColor="@color/_00___01_color"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+
+                                />
+                            <Button
+                                android:id="@+id/done"
+                                android:layout_marginTop="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="49dp"
+                                android:layout_centerHorizontal="true"
+
+                                android:text="Done"
+                                android:textColor="#ffffff"
+                                android:textStyle="bold"
+                                android:background="@drawable/rectangle_82_shape" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true">
+
+    <Button
+        android:id="@+id/punch_bootom_button"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/closedbutton" />
+</RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

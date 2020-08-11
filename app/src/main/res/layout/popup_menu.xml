@@ -1,0 +1,159 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		popup_menu
+	 *	@date 		0
+	 *	@title 		Popup Menu
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.xd
+	 *
+	 */
+	-->
+
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent" >
+			<View
+				android:id="@+id/rectangle_81"
+				android:layout_width="match_parent"
+				android:layout_height="734dp"
+				android:layout_marginStart="-1dp"
+				android:layout_marginLeft="-1dp"
+				android:layout_marginTop="0dp"
+				android:alpha="0.40000000596046"
+				android:background="@drawable/rectangle_81_shape" />
+
+			<!--<View android:id="@+id/_bg__popup_menu"
+				android:background="@drawable/rectangle_81_shape"
+				 android:layout_marginLeft="0dp"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="414dp"
+				android:layout_height="736dp" />-->
+
+
+			<RelativeLayout android:id="@+id/red"
+				android:layout_marginTop="-0.4609375dp"
+				android:layout_marginStart="257.18505859375dp"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="240.18505859375dp">
+
+				<ImageView android:id="@+id/subtraction_7"
+					android:src="@drawable/subtraction_7"
+					android:contentDescription="subtraction_7"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="156.6796875dp"
+					android:layout_height="162.84497070312dp" />
+
+				<View android:id="@+id/ellipse_85"
+					android:background="@drawable/ellipse_85_shape"
+					 android:layout_marginLeft="115dp"
+					 android:layout_marginStart="115dp"
+					android:layout_marginTop="106dp"
+					android:layout_width="33dp"
+					android:layout_height="33dp" />
+
+				<ImageView android:id="@+id/top_popup_signout"
+					android:src="@drawable/ic_exit_to_app_24px"
+					android:contentDescription="ic_exit_to_app_24px"
+					 android:layout_marginLeft="123dp"
+					 android:layout_marginStart="123dp"
+					android:layout_marginTop="114dp"
+					android:layout_width="18.06982421875dp"
+					android:layout_height="18.06982421875dp" />
+
+				<TextView android:id="@+id/signout"
+					android:fontFamily="Roboto"
+					android:textSize="12sp"
+					android:textColor="@color/signout_color"
+					android:layout_marginLeft="111dp"
+					android:layout_marginTop="136dp"
+					android:layout_width="46dp"
+					android:layout_height="18dp"
+					android:text="@string/signout_string"
+					 />
+
+				<TextView android:id="@+id/report"
+					android:fontFamily="Roboto"
+					android:textSize="12sp"
+					android:textColor="@color/signout_color"
+					android:layout_marginLeft="65dp"
+					android:layout_marginTop="94dp"
+					android:layout_width="41dp"
+					android:layout_height="18dp"
+					android:text="@string/report_string"
+					 />
+
+				<View android:id="@+id/ellipse_86"
+					android:background="@drawable/ellipse_86_shape"
+					 android:layout_marginLeft="63dp"
+					 android:layout_marginStart="63dp"
+					android:layout_marginTop="65dp"
+					android:layout_width="33dp"
+					android:layout_height="33dp" />
+
+				<View android:id="@+id/ellipse_87"
+					android:background="@drawable/ellipse_87_shape"
+					 android:layout_marginLeft="27dp"
+					 android:layout_marginStart="27dp"
+					android:layout_marginTop="7dp"
+					android:layout_width="33dp"
+					android:layout_height="33dp" />
+
+				<TextView android:id="@+id/notification"
+					android:fontFamily="Roboto"
+					android:textSize="12sp"
+					android:textColor="@color/signout_color"
+					android:layout_marginLeft="17dp"
+					android:layout_marginTop="42dp"
+					android:layout_width="67dp"
+					android:layout_height="18dp"
+					android:text="@string/notification_string"
+					 />
+
+				<TextView android:id="@+id/x"
+					android:fontFamily="Segoe UI"
+					android:textSize="18sp"
+					android:textColor="@color/signout_color"
+					android:layout_marginLeft="139dp"
+					android:layout_marginTop="2dp"
+					android:layout_width="16dp"
+					android:layout_height="28dp"
+					android:text="@string/x_string"
+					 />
+
+				<ImageView android:id="@+id/top_pop_notificaion"
+					android:src="@drawable/ic_notifications_active_24px"
+					android:contentDescription="ic_notifications_active_24px"
+					 android:layout_marginLeft="33dp"
+					 android:layout_marginStart="33dp"
+					android:layout_marginTop="15dp"
+					android:layout_width="20.46044921875dp"
+					android:layout_height="20.009033203125dp" />
+
+				<ImageView android:id="@+id/top_popup_report"
+					android:src="@drawable/ic_assignment_24px"
+					android:contentDescription="ic_assignment_24px"
+					 android:layout_marginLeft="71dp"
+					 android:layout_marginStart="71dp"
+					android:layout_marginTop="71dp"
+					android:layout_width="18dp"
+					android:layout_height="20dp" />
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+
+</HorizontalScrollView>

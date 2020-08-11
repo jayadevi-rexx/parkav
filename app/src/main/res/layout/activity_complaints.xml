@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#000">
+
+        <ImageView
+            android:id="@+id/complaint_back_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/ic_arrow_back_24px" />
+
+
+
+
+        <TextView
+            android:id="@+id/complaint_timer"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/NotfificationRelativeLayout"
+            android:text="00:00"
+            android:textColor="#fff"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+
+        <RelativeLayout
+            android:id="@+id/NotfificationRelativeLayout"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:id="@+id/complaint_profile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_profile_red"
+               />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/relone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/content_containers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/one"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/path_3"
+                        android:layout_width="416.33349609375dp"
+                        android:layout_height="196.33349609375dp"
+                        android:layout_marginStart="-25.000244140625dp"
+                        android:layout_marginLeft="-25.000244140625dp"
+                        android:contentDescription="path_3"
+                        android:src="@drawable/red_maroon" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/second"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/one"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:id="@+id/scrollView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/three"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="30dp"
+                            android:layout_below="@+id/one"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:id="@+id/five"
+                                android:layout_width="fill_parent"
+                                android:layout_height="50dp"
+                                android:layout_below="@+id/one"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/choose_customer"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text="Click here to Choose customer"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/six"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/cmoplant_customer_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:visibility="invisible"
+                                    android:textSize="20dp"
+                                    android:text="choose the complaint status">
+
+                                </TextView>
+                                <Spinner
+                                    android:id="@+id/compliaint_spinner"
+                                    android:gravity="center"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:weightSum="4"
+                                android:layout_marginTop="20dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one"
+
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="s.no"
+                                    android:background="@drawable/rectangle_2_shape"
+                                    android:textColor="#fff"
+                                    android:textStyle="bold"
+                                    android:layout_weight="1"
+                                    android:gravity="center"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Task"
+                                    android:background="@drawable/rectangle_2_shape"
+                                    android:layout_marginLeft="2dp"
+                                    android:textColor="#fff"
+                                    android:textStyle="bold"
+                                    android:layout_weight="1"
+                                    android:gravity="center"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Description"
+                                    android:background="@drawable/rectangle_2_shape"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="2dp"
+                                    android:textColor="#fff"
+                                    android:layout_weight="1"
+                                    android:gravity="center"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Status"
+                                    android:textStyle="bold"
+                                    android:background="@drawable/rectangle_2_shape"
+                                    android:layout_marginLeft="2dp"
+                                    android:textColor="#fff"
+                                    android:layout_weight="1"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/complaint_recycle"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp" >
+
+                                </androidx.recyclerview.widget.RecyclerView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/kg_size"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one"
+                                android:layout_marginTop="10dp"
+                                android:visibility="invisible"
+                                android:weightSum="3"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/postalcode_text"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.2"
+                                    android:text="@string/product_code_string"/>
+
+                                <EditText
+                                    android:id="@+id/productcode"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.7"
+                                    android:ems="10" />
+                                <TextView
+                                    android:id="@+id/kg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="KG"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.45"
+                                    android:text="@string/remarks_string"/>
+
+                                <EditText
+                                    android:id="@+id/coremarks"
+                                    android:layout_width="0dp"
+                                    android:maxLines="5"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.75"
+                                    android:ems="10" />
+
+                            </LinearLayout>
+                            <LinearLayout
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/one"
+                                android:layout_marginTop="1dp"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/complaint_submit"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/rectangle_88_shape"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Submit"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="13dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/add__customer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="15dp"
+                        android:text="@string/complaints_string"
+                        android:textColor="@color/_bg__today_task_color"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView android:id="@+id/invoice"
+                        android:textSize="20sp"
+                        android:textColor="@color/invoice_color"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="63dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/return_ek1_string"
+                        />
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/complaint_bootom_button"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/closedbutton" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
